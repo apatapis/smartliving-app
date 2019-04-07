@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StorageUnitActivity"></activity>
+        <activity android:name=".ValueChangesActivity"></activity>
+        <activity android:name=".StatisticsActivity" />
+        <activity android:name=".ContainerActivity" />
+        <activity android:name=".LevelActivity" />
+        <activity android:name=".StorageUnitActivity" />
         <activity android:name=".StorageUnitsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
